@@ -47,6 +47,8 @@ CSVs are in `teclass_dataset/`. Columns: `id, url, article, headline, label`.
 
 Preprocessing: custom Telugu tokenizer (danda, double-danda, dates, repeated punctuation treated as single tokens) then SentencePiece BPE with vocab 2,945. Same recipe as the paper.
 
+Dataset: https://github.com/ltrc/TeClass/tree/main/Dataset
+
 ## Full results
 
 ### Classical ML
